@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 @Entity
 
-public class TipoRestautante {
+public class TipoRestaurante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
